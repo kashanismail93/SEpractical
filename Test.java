@@ -21,6 +21,16 @@ class Test{
 			System.out.println("Date:"+date);
 				
 		}
+	
+		if(choice == 2){
+			System.out.println("Thanks for coming");
+		}
+}
+	public static void main(String str[]){
+		
+		Test t = new Test();
+		t.appointment();
+	}
 
 }
 
