@@ -10,7 +10,7 @@ class Test{
 		String doctorName = "Dr Nouman Shaikh";
 		String time = "11:00 AM";
 		String date = "1/1/19";
-		}
+		
 		if(choice == 1){
 			System.out.print("Enter your good name:");		
 			String name = inputS.nextLine();
