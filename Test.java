@@ -11,7 +11,16 @@ class Test{
 		String time = "11:00 AM";
 		String date = "1/1/19";
 		}
-
+		if(choice == 1){
+			System.out.print("Enter your good name:");		
+			String name = inputS.nextLine();
+			System.out.println("**Receipt**");
+			System.out.println("Name:"+name);
+			System.out.println("Doctor:"+doctorName);
+			System.out.println("Time:"+time);
+			System.out.println("Date:"+date);
+				
+		}
 
 }
 
